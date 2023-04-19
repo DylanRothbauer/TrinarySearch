@@ -6,6 +6,7 @@
 * CHANGE LOG:
 * 4/18/23 - Dylan Rothbauer - added git commands to master
 * 4/18/23 - Dylan Rothbauer - added comments above funtion implementations
+* 4/19/23 - Dylan R - added git
 */
 #include <iostream>
 #include <vector>
