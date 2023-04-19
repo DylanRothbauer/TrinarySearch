@@ -1,10 +1,20 @@
 #pragma once
+/*
+* Dylan Rothbauer
+* Trinary Search
+* 
+* CHANGE LOG:
+* 4/18/23 - Dylan Rothbauer - added git commands to master
+* 4/18/23 - Dylan Rothbauer - added comments above funtion implementations
+*/
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-// Binary Search
+/*
+* Binary Search
+*/
 int binarySearch(vector<int>& vec, int target) {
     int count = 0; // using a counter for steps
     int left = 0; // at the start of the vector
@@ -28,7 +38,9 @@ int binarySearch(vector<int>& vec, int target) {
     return -1;  // target not found
 }
 
-// Trinary Search
+/*
+* Trinary Search
+*/
 int trinarySearch(vector<int>& vec, int target) {
     int count = 0; // using a counter for steps
     int left = 0;
@@ -61,7 +73,8 @@ int trinarySearch(vector<int>& vec, int target) {
     return -1;  // not found
 }
 
-// Visual for main
+// Visual for main (table)
+// FOR TESTING...
 void printTable(int size, vector<int> myVec, int target) {
     cout << "INPUT SIZE: " << size << endl;
     binarySearch(myVec, target);

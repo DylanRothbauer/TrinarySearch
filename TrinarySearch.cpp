@@ -3,7 +3,9 @@
 #include <vector>
 
 using namespace std;
-
+/*
+* Test functions for table
+*/
 void testOne() {
 	vector<int> myVec;
 
@@ -104,7 +106,6 @@ int main() {
 	testFive();
 	testSix();
 	testSeven();
-	// Git hub test
 
 	// return 0;
 }
